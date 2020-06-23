@@ -62,6 +62,9 @@ char conf_sub_total[1000], conf_cnslt_chrg[1000], conf_total[1000], conf_grand_t
 int num;
 */
 
+
+// Actual Code Starts Right Here...
+
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>		//general purpose standard library, includes functions->memory allocation, process control, conversions
