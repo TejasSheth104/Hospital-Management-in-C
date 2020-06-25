@@ -1,0 +1,89 @@
+	REGISTRATION COMMENCED @ Thu Jun 25 22:34:58 2020
+ 
+		 PATIENT's FILE-NAME:  40096.txt
+
+			 A) PERSONAL DETAILS ===>
+
+tFull Name: TEJAS SHETH
+	Age: 99
+	Address: MUMBAI, INDIA
+	Mobile Number: ##########
+	Telephone Number: ########
+	Gender: M
+
+			 B) BANK DETAILS ===>
+
+	Bank Account (Y/N): N
+
+	Created a New Bank Account:- 
+	Bank Account No: 1**.
+
+			 C) AMBULANCE SERVICE ===>
+
+	Ambulance Type: Mobile Intensive Care Unit.
+
+	AMBULANCE-CHARGE = Rs. 3000.00
+
+			 D) MEDICAL BACKGROUND ===>
+
+	01. Has you doctor ever said your blood pressure was too high or too low? : N
+	02. Do you have any known cardiovascular problems (abnormal ECG, previous heart attack, etc)? : Y
+	03. Has your doctor ever told you that your cholesterol was too high? : N
+	04. Have you (or a family member) ever been told that you have diabetes? : N
+	05. Do you have any injuries or orthopedic problems (back, knees, etc)?: N
+	06. Do you have stiff or swollen joints? : N
+	07. Do you have tension or soreness in any area? : Y
+	08. Are you taking any prescribed medications or dietary supplementation? : Y
+	09. Do you ever have problems sleeping? : Y
+	10. Have you ever been advised by a doctor, physician or specialist not to perform any type of exercise/activity? : N
+
+			 E) FINANCIAL CONDITION & INSURANCE ===>
+
+	Government Aid: 25PERCENT concession on Hospital Bill.
+
+	Health Insurance Policy: Critical Illness Cover.
+
+			 F) SPECIALIST CONSULTED ===>
+
+	Referring to: General Physician.
+
+	CONSULTING-CHARGES = Rs. 4000.00
+
+			 G) Medical Test Carried ===>
+
+	Test's Suggested: 
+		01. Visual Acuity = Rs. 700.00
+		02. Refraction Test = Rs. 500.00
+		03. Slit Lamp Test = Rs. 350.00
+		04. Retina Test = Rs. 800.00
+		05. Optical Coherence Tomography(O.C.T.) = Rs. 1300.00
+		06. UltraSonography = Rs. 3000.00
+
+	SUB-TOTAL = Rs. 13150.00
+
+			 H) Medical Store ===>
+
+	Hospital's Medical-Store: Y
+
+	Medicine Suggested: 
+		01. Eye Drops.
+
+	MEDICINE-CHARGES = Rs. 20.05
+
+			 I) Bill ===>
+
+	Ambulance Charges		 = Rs. 3000.00
+	Consulting Charges		 = Rs. 4000.00
+	Test Charges			 = Rs. 6650.00
+	Bed Charges			 = Rs. 1500.00
+	Hospital Visiting Charges	 = Rs. 2000.00
+	Medicine Charges		 = Rs. 20.05
+	TOTAL				 = Rs. 17170.05
+
+	25% Government Aid Applied
+	TOTAL(after concession) = Rs. 12877.54
+
+	Government Taxes		 = 5% 
+
+	GRAND-TOTAL(incl. of all taxes) = Rs. 13521.42
+
