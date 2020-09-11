@@ -1,7 +1,7 @@
 /*
 Name:	Hospital Management system
 Author:	Tejas A. Sheth
-Version:	3.5			//(major change . minor edit )
+Version:	3.6			//(major change . minor edit )
 Description:	
 	create a new patients file, manage his/her appointment, keep a note of all specialists,
 	tests provided by the hospital, final bill incured by a patient. 
@@ -25,6 +25,7 @@ v3.2 = displayed the account status(like Y/N), then account number (like 7** )
 V3.3 = added contact us footer on each page
 v3.4 = added time and date, updated the test list in such a way that it is more user-friendly now(no need to select any test no, automatically picks em up and displays the sum of all the tests).
 v3.5 = added medical store facility, updated price for medicines.
+v3.6 = added Blood Group
 */
 
 // most imp part is done
@@ -86,7 +87,7 @@ char id[10];
 int num;
 	int num1;
 
-char name[1000], address[1000], mno[1000], tele[1000], age[100], gender[10]; 
+char name[1000], address[1000], mno[1000], tele[1000], age[100], gender[10], bg[10]; 
 char pat_id[100]; 	//unused
 	char bankacc, new_bankacc, more, b_acc[10];;
 	int check;
@@ -497,6 +498,9 @@ void pers_det()
 	printf("\tEnter Age(in years): \t");
 //	scanf("%d",&age);
 	gets(age);
+	printf("\tEnter Blood Group: \t");
+//	scanf("%s",&bg);
+	gets(bg);
 	printf("\tEnter Residential Address: \t");
 	gets(address);
 	printf("\tEnter Contact Information :- \n");
@@ -766,6 +770,9 @@ void dspy_persdet()
 	fprintf(pat_data, "\n");
 	fprintf(pat_data,"\tAge: ");
 	fputs(age,pat_data);
+	fprintf(pat_data, "\n");
+	fprintf(pat_data,"\tBlood Group: ");
+	fputs(bg,pat_data);
 	fprintf(pat_data, "\n");
 	fprintf(pat_data,"\tAddress: ");
 	fputs(address,pat_data);
